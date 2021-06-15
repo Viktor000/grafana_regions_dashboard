@@ -1,0 +1,34 @@
+        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region***code***' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region***code***')) AS \"Region***code***\"",
+          "refId": "***code***",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },

@@ -1,0 +1,2806 @@
+        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region01' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region01')) AS \"Region01\"",
+          "refId": "01",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region02' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region02')) AS \"Region02\"",
+          "refId": "02",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region03' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region03')) AS \"Region03\"",
+          "refId": "03",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region04' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region04')) AS \"Region04\"",
+          "refId": "04",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region05' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region05')) AS \"Region05\"",
+          "refId": "05",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region06' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region06')) AS \"Region06\"",
+          "refId": "06",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region07' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region07')) AS \"Region07\"",
+          "refId": "07",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region08' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region08')) AS \"Region08\"",
+          "refId": "08",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region09' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region09')) AS \"Region09\"",
+          "refId": "09",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region10' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region10')) AS \"Region10\"",
+          "refId": "10",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region11' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region11')) AS \"Region11\"",
+          "refId": "11",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region12' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region12')) AS \"Region12\"",
+          "refId": "12",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region13' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region13')) AS \"Region13\"",
+          "refId": "13",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region14' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region14')) AS \"Region14\"",
+          "refId": "14",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region15' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region15')) AS \"Region15\"",
+          "refId": "15",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region16' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region16')) AS \"Region16\"",
+          "refId": "16",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region17' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region17')) AS \"Region17\"",
+          "refId": "17",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region18' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region18')) AS \"Region18\"",
+          "refId": "18",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region19' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region19')) AS \"Region19\"",
+          "refId": "19",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region20' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region20')) AS \"Region20\"",
+          "refId": "20",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region21' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region21')) AS \"Region21\"",
+          "refId": "21",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region22' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region22')) AS \"Region22\"",
+          "refId": "22",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region23' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region23')) AS \"Region23\"",
+          "refId": "23",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region24' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region24')) AS \"Region24\"",
+          "refId": "24",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region25' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region25')) AS \"Region25\"",
+          "refId": "25",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region26' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region26')) AS \"Region26\"",
+          "refId": "26",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region27' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region27')) AS \"Region27\"",
+          "refId": "27",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region28' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region28')) AS \"Region28\"",
+          "refId": "28",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region29' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region29')) AS \"Region29\"",
+          "refId": "29",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region30' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region30')) AS \"Region30\"",
+          "refId": "30",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region31' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region31')) AS \"Region31\"",
+          "refId": "31",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region32' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region32')) AS \"Region32\"",
+          "refId": "32",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region33' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region33')) AS \"Region33\"",
+          "refId": "33",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region34' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region34')) AS \"Region34\"",
+          "refId": "34",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region35' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region35')) AS \"Region35\"",
+          "refId": "35",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region36' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region36')) AS \"Region36\"",
+          "refId": "36",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region37' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region37')) AS \"Region37\"",
+          "refId": "37",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region38' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region38')) AS \"Region38\"",
+          "refId": "38",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region39' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region39')) AS \"Region39\"",
+          "refId": "39",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region40' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region40')) AS \"Region40\"",
+          "refId": "40",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region41' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region41')) AS \"Region41\"",
+          "refId": "41",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region42' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region42')) AS \"Region42\"",
+          "refId": "42",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region43' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region43')) AS \"Region43\"",
+          "refId": "43",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region44' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region44')) AS \"Region44\"",
+          "refId": "44",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region45' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region45')) AS \"Region45\"",
+          "refId": "45",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region46' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region46')) AS \"Region46\"",
+          "refId": "46",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region47' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region47')) AS \"Region47\"",
+          "refId": "47",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region48' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region48')) AS \"Region48\"",
+          "refId": "48",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region49' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region49')) AS \"Region49\"",
+          "refId": "49",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region50' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region50')) AS \"Region50\"",
+          "refId": "50",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region51' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region51')) AS \"Region51\"",
+          "refId": "51",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region52' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region52')) AS \"Region52\"",
+          "refId": "52",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region53' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region53')) AS \"Region53\"",
+          "refId": "53",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region54' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region54')) AS \"Region54\"",
+          "refId": "54",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region55' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region55')) AS \"Region55\"",
+          "refId": "55",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region56' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region56')) AS \"Region56\"",
+          "refId": "56",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region57' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region57')) AS \"Region57\"",
+          "refId": "57",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region58' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region58')) AS \"Region58\"",
+          "refId": "58",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region59' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region59')) AS \"Region59\"",
+          "refId": "59",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region60' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region60')) AS \"Region60\"",
+          "refId": "60",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region61' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region61')) AS \"Region61\"",
+          "refId": "61",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region62' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region62')) AS \"Region62\"",
+          "refId": "62",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region63' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region63')) AS \"Region63\"",
+          "refId": "63",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region64' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region64')) AS \"Region64\"",
+          "refId": "64",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region65' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region65')) AS \"Region65\"",
+          "refId": "65",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region66' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region66')) AS \"Region66\"",
+          "refId": "66",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region67' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region67')) AS \"Region67\"",
+          "refId": "67",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region68' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region68')) AS \"Region68\"",
+          "refId": "68",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region69' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region69')) AS \"Region69\"",
+          "refId": "69",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region70' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region70')) AS \"Region70\"",
+          "refId": "70",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region71' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region71')) AS \"Region71\"",
+          "refId": "71",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region72' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region72')) AS \"Region72\"",
+          "refId": "72",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region73' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region73')) AS \"Region73\"",
+          "refId": "73",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region74' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region74')) AS \"Region74\"",
+          "refId": "74",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region75' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region75')) AS \"Region75\"",
+          "refId": "75",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region76' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region76')) AS \"Region76\"",
+          "refId": "76",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region77' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region77')) AS \"Region77\"",
+          "refId": "77",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region78' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region78')) AS \"Region78\"",
+          "refId": "78",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region79' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region79')) AS \"Region79\"",
+          "refId": "79",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region82' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region82')) AS \"Region82\"",
+          "refId": "82",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region83' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region83')) AS \"Region83\"",
+          "refId": "83",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region86' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region86')) AS \"Region86\"",
+          "refId": "86",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region87' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region87')) AS \"Region87\"",
+          "refId": "87",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region89' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region89')) AS \"Region89\"",
+          "refId": "89",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },        {
+          "format": "time_series",
+          "group": [],
+          "metricColumn": "none",
+          "rawQuery": true,
+		  "rawSql": "SELECT NOW() as \"time\",COALESCE((SELECT group_weight FROM custom_alarms WHERE groupname = 'Region92' limit 1),(SELECT COUNT(*) FROM custom_alarms WHERE groupname = 'Region92')) AS \"Region92\"",
+          "refId": "92",
+          "select": [
+            [
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "column"
+              },
+              {
+                "params": [
+                  "ihostid"
+                ],
+                "type": "alias"
+              }
+            ]
+          ],
+          "table": "custom_alarms",
+          "timeColumn": "eacknowledged",
+          "timeColumnType": "int4",
+          "where": [
+            {
+              "name": "$__unixEpochFilter",
+              "params": [],
+              "type": "macro"
+            }
+          ]
+        },
